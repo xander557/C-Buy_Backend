@@ -9,6 +9,6 @@ public class LoginController {
 
     @RequestMapping("login/")
     public String getLogInfo(){
-        return ("Hello World");
+        return ("Hello World Hello World");
     }
 }
