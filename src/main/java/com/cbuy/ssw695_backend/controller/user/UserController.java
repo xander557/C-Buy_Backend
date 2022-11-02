@@ -1,8 +1,8 @@
-package com.cbuy.ssw695_backend.controller.login;
+package com.cbuy.ssw695_backend.controller.user;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.kob.backend.mapper.UserMapper;
-import com.kob.backend.pojo.User;
+import com.cbuy.ssw695_backend.mapper.UserMapper;
+import com.cbuy.ssw695_backend.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -13,16 +13,16 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class LoginController {
+public class UserController {
 
-    final
+    @Autowired
     UserMapper userMapper;
 
-    public LoginController(UserMapper userMapper) {
-        this.userMapper = userMapper;
-    }
-
-    @GetMapping("/user/all/")
+//    @GetMapping("/user/all/")
+//    public List<User> getAll() {
+//        return userMapper.selectList(null);
+//    }
+    @GetMapping("/")
     public List<User> getAll() {
         return userMapper.selectList(null);
     }
