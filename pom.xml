@@ -106,7 +106,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.kob.backend.BackendApplication</mainClass>
+                    <mainClass>com.cbuy.ssw695_backend.Ssw695BackendApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
@@ -118,6 +118,7 @@
                 </executions>
             </plugin>
         </plugins>
+        <finalName>spring-boot-aws</finalName>
     </build>
 
 </project>
