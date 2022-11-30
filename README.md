@@ -1,2 +1,2 @@
 # C-Buy_Backend
-https://app.travis-ci.com/akshay680/GithubApi567.svg?branch=main
+[![Build Status](https://app.travis-ci.com/akshay680/GithubApi567.svg?branch=main)](https://app.travis-ci.com/akshay680/GithubApi567)
