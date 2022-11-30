@@ -1,3 +1,2 @@
 # C-Buy_Backend
-
-https://app.travis-ci.com/xander557/C-Buy_Backend.svg?branch=main
+[![Build Status](https://app.travis-ci.com/xander557/C-Buy_Backend.svg?branch=main)](https://app.travis-ci.com/xander557/C-Buy_Backend)
