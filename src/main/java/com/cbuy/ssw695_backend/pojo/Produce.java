@@ -8,10 +8,11 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class Produce {
     @TableId(type = IdType.AUTO)
     private Integer id;
-    private String username;
-    private String password;
+    private String name;
+    private String description;
+    private Integer stock;
     private String photo;
 }
