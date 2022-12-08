@@ -14,8 +14,11 @@ class Ssw695BackendApplicationTests {
         System.out.println(passwordEncoder.encode("alex"));
         System.out.println(passwordEncoder.encode("chris"));
 
+    }
 
-
+    @Test
+    void controllerTests() {
+        System.out.println("hello world");
     }
 
 }
